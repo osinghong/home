@@ -1,0 +1,60 @@
+html {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* 设置背景颜色 */
+body {
+	background-color: darkgray;
+}
+
+/* 设置最近作品表格样式 */
+dl {
+	float: left;
+	width: 25%;
+}
+
+nav {
+	position: fixed;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: grey;
+}
+
+.nava:hover {
+	background-color: gold;
+	border-radius: 15px;
+}
+
+.nava_selected {
+	background-color: gold;
+	border-radius: 15px;
+}
+
+img {
+	float: left;
+	border-radius: 15px;
+}
+
+footer {
+	text-align: center;
+}
+
+dd {
+	float: inline-start;
+
+}

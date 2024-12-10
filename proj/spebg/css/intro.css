@@ -1,0 +1,116 @@
+nav {
+	position: fixed;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 100px;
+}
+
+.nava {
+	text-decoration: none;
+	color: white;
+
+}
+
+.nava:hover {
+	background-color: gold;
+	border-radius: 15px;
+}
+
+.nava_selected {
+	background-color: gold;
+	border-radius: 15px;
+}
+
+.color {
+	color: lightsalmon;
+}
+
+a {
+	color: lightsalmon;
+	text-decoration: none;
+}
+
+h1 {
+	color: lightsalmon;
+	text-align: center;
+}
+
+h3 {
+	border-left: solid lightsalmon 10px;
+	color: lightsalmon;
+}
+
+article {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+body {
+	background-image: url('../img/intro/in1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	color: white;
+	width: 1500px;
+	margin: 0 auto;
+	text-indent: 30px;
+}
+
+video {
+	float: left;
+	margin-left: 15px;
+}
+
+img {
+	float: left;
+	margin-right: 15px;
+	border-radius: 15px;
+}
+
+span {
+	text-decoration: none;
+	color: white;
+	margin: 3px;
+}
+
+.nav {
+	position: absolute;
+	left: 20;
+}
+
+.video-container {
+	display: flex;
+	justify-content: center;
+}
+
+.copyright {
+	color: black;
+}
+
+pre {
+	text-align: left;
+	color: white;
+}
+
+.time {
+	border-bottom: solid white 2px;
+}
+
+.but {
+	width: 100px;
+	height: 30px;
+	border: solid darkblue 3px;
+}
+
+.searchInput {
+	height: 23px;
+	border: solid darkblue 3px;
+}
+
+footer {
+	text-align: center;
+}

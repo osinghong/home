@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>影迷注册</title>
+	</head>
+	<link rel="stylesheet" href="../css/html.css" />
+	<body>
+		<nav>
+			<table border="0" height="50" width="700" cellspacing="0" cellpadding="0">
+				<tr class="navside">
+					<td class="nava"><a href="../../../column/proj.html">&#60返回</a></td>
+					<td><img src="../img/logo1.png" width="150"> </td>
+					<td class="nava"><a href="../index.html">个人简介</a></td>
+					<td class="nava"><a href="reward.html">获奖作品</a></td>
+					<td class="nava_selected"><a href="#">影迷注册</a></td>
+					<td class="nava"><a href="https://osinghong.github.io/home">欧永鸿防伪</a></td>
+				</tr>
+			</table>
+		</nav>
+		<br /><br /><br />
+		<form action="">
+			<table cellpadding="5px" align="center">
+				<tr>
+					<td rowspan="12"><img src="../img/spebgnew.jpg" alt=""></td>
+				</tr>
+				<tr>
+					<td><label for="zh">账号：</label></td>
+					<td><input type="text" name="" id="zh" value="" placeholder="请输入账号" required
+							pattern="^[a-zA-Z]\w{4,15}$" /></td>
+					<td>（必填 以字母开头，长度5-16之间，允许数字字母下划线）</td>
+				</tr>
+				<tr>
+					<td><label for="mm">密码：</label></td>
+					<td><input type="password" name="" id="mm" value="" placeholder="请输入密码" required
+							pattern="^[A-Za-z0-9]{5,17}$" /></td>
+					<td>（必填 以字母开头，长度5-16之间，允许数字字母下划线）</td>
+				</tr>
+				<tr>
+					<td><label for="email">Email：</label></td>
+					<td><input type="email" name="" id="email" value="" required /></td>
+					<td>（必填）</td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td><input type="radio" name="sex" id="man" value="" checked /><label for="man">男</label>
+						<input type="radio" name="sex" id="woman" value="" /><label for="woman">女</label>
+					</td>
+					<td>（选填）</td>
+				</tr>
+				<tr>
+					<td><label for="nl">年龄：</label></td>
+					<td><input type="number" name="" id="nl" value="" placeholder="请输入年龄"
+							pattern="^(1[89]|[2-7][0-9]|120)$" /></td>
+					<td>（选填）</td>
+				</tr>
+				<tr>
+					<td>最早观影时间：</td>
+					<td><input type="date" name="" id="" value="" required /></td>
+					<td>（必填）</td>
+				</tr>
+				<tr>
+					<td>喜欢的电影类型：</td>
+					<td><input type="checkbox" name="lx[]" id="aqwy" value="" /><label for="aqwy">爱情文艺</label>
+						<input type="checkbox" name="lx[]" id="kh" value="" /><label for="kh">科幻</label>
+						<input type="checkbox" name="lx[]" id="kb" value="" /><label for="kb">恐怖</label>
+						<input type="checkbox" name="lx[]" id="mh" value="" /><label for="mh">魔幻</label>
+						<input type="checkbox" name="lx[]" id="zz" value="" /><label for="zz">战争</label>
+						<input type="checkbox" name="lx[]" id="xj" value="" /><label for="xj">喜剧</label>
+					</td>
+					<td>（选填）</td>
+				</tr>
+				<tr>
+					<td>最喜欢哪一部：</td>
+					<td><select name="" id="">
+							<option value="E.T.外星人">E.T.外星人</option>
+							<option value="侏罗纪公园">侏罗纪公园</option>
+							<option value="辛德勒的名单">辛德勒的名单</option>
+							<option value="大白鲨">大白鲨</option>
+							<option value="夺宝奇兵" selected>夺宝奇兵</option>
+						</select></td>
+					<td>（选填）</td>
+				</tr>
+				<tr>
+					<td><label for="ly">留言：</label></td>
+					<td><textarea name="" id="ly" cols="30" rows="10"></textarea></td>
+					<td>（选填）</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="提交" /></td>
+					<td><input type="reset" value="重置" /></td>
+				</tr>
+			</table>
+		</form>
+		<footer>
+			<hr />
+			<p>&#169Osinghong · 原创网站 · D24C04429欧永鸿制作</p>
+			<a href="https://github.com/osinghong/home">Github开源</a> | <a href="../../../column/abouthtml.html">关于网站</a>
+			| <a href="">&#9742
+				联系作者</a> | <a href="">彩蛋</a>
+			<br />
+		</footer>
+	</body>
+</html>
