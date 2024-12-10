@@ -1,0 +1,28 @@
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+p>a {
+	text-decoration: none;
+	color: #3a7456
+}
+
+h3 {
+	text-indent: 1em;
+}
+
+p {
+	text-indent: 2em;
+}
+
+h2 {
+	text-indent: 1.4em;
+}

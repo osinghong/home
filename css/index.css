@@ -1,0 +1,137 @@
+/* #网页背景颜色 居中 */
+html {
+	background-color: #c5c5c5;
+	margin: 0 auto;
+}
+
+/* #控制每个超链接字体，行距*/
+.nav_left {
+	margin-left: 1%;
+	font-family: 'Calibri';
+	padding: 0 20px;
+	height: 65px;
+	line-height: 65px;
+}
+
+/* #调整字体大小 变粗*/
+.nav_left>a:first-child {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* #设置超链接样式 间隔*/
+.nav_left>a {
+	text-decoration: none;
+	margin-right: 3em;
+	color: #0a0a2e;
+	transition: color 0.3s ease;
+}
+
+/* #点击特效*/
+.nav_left>a:hover {
+	color: green;
+	border-bottom: 2px solid;
+}
+
+/* #设置超链接样式 间隔*/
+.nav_right {
+	text-align: center;
+	float: right;
+	margin-top: -50px;
+}
+
+/* #控制每个超链接字体，行距*/
+.nav_right>a {
+	text-decoration: none;
+	margin-right: 3em;
+	color: grey;
+}
+
+/* #点击特效*/
+.nav_right>a:hover {
+	color: green;
+}
+
+/* #网页主体字体颜色大小设置*/
+main {
+	color: #0a0a2e;
+	display: flex;
+	font-size: 24px;
+	font-family: 'Calibri';
+	text-indent: 1em;
+}
+
+/* #控制主题左侧大小，靠左*/
+.notice {
+	width: 30%;
+	float: left;
+}
+
+/* #控制主题右侧大小，靠右*/
+.column {
+	width: 70%;
+	float: right;
+}
+
+/* #去掉li样式*/
+ul li {
+	list-style: none;
+	position: relative;
+}
+
+/* #图片内文字样式*/
+li p {
+	margin-top: -2em;
+	margin-left: 0.5em;
+	color: antiquewhite;
+	position: relative;
+}
+
+/* #图片圆润*/
+img {
+	border-radius: 10px;
+}
+
+/* #控制右侧ul与其他区域的间距*/
+.column>ul:last-child {
+	float: right;
+	position: relative;
+	margin-top: -71%;
+	margin-left: 50%;
+}
+
+/* #去掉超链接样式*/
+.column a {
+	text-decoration: none
+}
+
+/* #图片动效预设*/
+.column a>img {
+	transition: filter 0.5s;
+	transition: margin-top 0.5s;
+}
+
+/* #图片动效参数*/
+.column a>img:hover {
+	filter: blur(1px);
+	font-size: 40px;
+	margin-top: -5px;
+}
+
+/* #页脚字体居中*/
+footer {
+	text-align: center;
+	font-family: 'Calibri';
+}
+
+/* #去除样式，动效预设*/
+footer a {
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+/* #动效参数*/
+footer a:hover {
+	color: green;
+	border-bottom: 2px solid;
+}

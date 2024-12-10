@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Osinghong's Hub</title>
+	</head>
+	<link rel="stylesheet" href="../css/friend.css" />
+	<link rel="stylesheet" href="../css/index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<body>
+		<nav>
+			<div class="nav_left">
+				<a href="../index.html">
+					Osinghong's Hub
+				</a>
+				<a href="intro.html">个人介绍</a>
+				<a href="proj.html">个人作品</a>
+				<a href="social.html">社交平台</a>
+				<a href="dormate.html">舍友风采</a>
+				<a href="friend.html" class="selected">&#9670 交个朋友</a>
+			</div>
+			<div class="nav_right">
+				<a href="https://osinghong.github.io/home/">本网站已在Github立项
+					<br /> >osinghong.github.io/home< </a>
+			</div>
+			<hr />
+		</nav>
+		<main>
+			<div class="container">
+				<h2>来交个朋友吧</h2>
+				<table cellpadding="5px" align="center">
+					<tr>
+						<td><label for="zh">你的名字：</label></td>
+						<td><input type="text" name="" id="zh" value="" placeholder="必填" required
+								pattern="^[a-zA-Z]\w{4,15}$" /></td </tr>
+					<tr>
+						<td><label for="mm">昵称：</label></td>
+						<td><input type="password" name="" id="mm" value="" placeholder="必填" required
+								pattern="^[A-Za-z0-9]{5,17}$" /></td>
+					</tr>
+					<tr>
+						<td><label for="email">邮箱（选填）：</label></td>
+						<td><input type="email" name="" id="email" value="" placeholder="选填" /></td>
+					</tr>
+					<tr>
+						<td>性别（选填）：</td>
+						<td><input type="radio" name="sex" id="man" value="" checked /><label for="man">男</label>
+							<input type="radio" name="sex" id="woman" value="" /><label for="woman">女</label>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="nl">年龄：</label></td>
+						<td><input type="number" name="" id="nl" value="" placeholder="请输入年龄数字,选填"
+								pattern="^(1[89]|[2-7][0-9]|120)$" /></td>
+					</tr>
+					<tr>
+						<td>生日（选填）：</td>
+						<td><input type="date" name="" id="" value="" /></td>
+					</tr>
+					<tr>
+						<td>因何喜欢作者</td>
+						<td><input type="checkbox" name="lx[]" id="aqwy" value="" /><label for="jm">精美的网页设计</label>
+							<input type="checkbox" name="lx[]" id="kh" value="" /><label for="xx">优秀的技术学习</label><br />
+							<input type="checkbox" name="lx[]" id="kb" value="" /><label for="xq">与作者兴趣相同</label>
+							<input type="checkbox" name="lx[]" id="mh" value="" /><label for="qt">其他，可以留言</label>
+						</td>
+					</tr>
+					<tr>
+						<td>最兴趣的专业</td>
+						<td><select name="" id="">
+								<option value="信息" selected>信息</option>
+								<option value="汽车">汽车</option>
+								<option value="商务">商务</option>
+								<option value="教育">教育</option>
+								<option value="语言">语言</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td><label for="ly">留言：</label></td>
+						<td><textarea name="" id="ly" cols="30" rows="10"></textarea></td>
+					</tr>
+					<tr>
+						<td align="right"><input type="submit" value="提交" /></td>
+						<td align="center"><input type="reset" value="重置" /></td>
+					</tr>
+				</table>
+				<br />
+			</div>
+		</main>
+		<footer>
+			<hr />
+			<p>&#169Osinghong · 原创网站 · D24C04429欧永鸿制作</p>
+			<a href="https://github.com/osinghong/home">Github开源</a> | <a href="abouthtml.html">关于网站</a> | <a
+				href="https://babana0755.survey.fm/osinghong-s-hub-first-research">&#9742 联系作者</a>
+			| <a href="egg/oyh.html">彩蛋</a>
+			<br />
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+/* #网页背景图片，以及大小等样式设置*/
+html {
+	background-image: url('../img/friendback.gif');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* #h2居中*/
+h2 {
+	text-align: center;
+}
+
+/* #填表界面布局设置*/
+.container {
+	width: 800px;
+	padding: 16px;
+	background-color: white;
+	margin: 100px auto;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+/* #输入框设置*/
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=date],
+select,
+textarea {
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}

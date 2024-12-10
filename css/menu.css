@@ -1,0 +1,78 @@
+/* #整体左边距 */
+.projnav {
+	position: relative;
+	margin-left: 2%;
+}
+
+/* #左侧导航栏样式设置,包括背景颜色,行高,宽度,动效预设 */
+.projnav>a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 120%;
+	height: 45px;
+	background-color: #595959;
+	line-height: 45px;
+	margin-left: 10%;
+	transition: background-color 0.5s;
+}
+
+/* #动效参数 */
+.projnav>a:hover {
+	background-color: orange;
+}
+
+/* #使首项变为橙色，圆角设置 */
+.projnav>a:first-child {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: orange;
+}
+
+.projnav>a:last-child {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* #去掉ul样式*/
+ul {
+	list-style: none;
+	display: flex;
+	margin-left: 60px;
+}
+
+/* #文字颜色和大小*/
+li>p:last-child {
+	color: blue;
+	font-size: 12px;
+}
+
+/* #文字单独不同设置*/
+li>p:nth-of-type(1) {
+	color: #640000;
+	font-size: 14px;
+}
+
+/* #h2颜色和大小 */
+h2 {
+	font-size: 16px;
+	color: #4d4d4d;
+}
+
+/* #取消超链接样式*/
+li>a {
+	text-decoration: none;
+}
+
+/* #图片动画预设*/
+a>img {
+	margin-left: 20px;
+	transition: filter 0.5s;
+	transition: margin-top 0.5s;
+}
+
+/* #图片动画参数*/
+a>img:hover {
+	filter: blur(0.5px);
+	margin-top: -5px;
+}
