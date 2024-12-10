@@ -1,0 +1,28 @@
+		html {
+			margin: 0 auto;
+		}
+
+		img {
+			float: left;
+			margin-right: 15px;
+		}
+
+		p {
+			float: middle;
+		}
+
+		body {
+			background-image: url('../img/libaiback.jpg');
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		section {
+			width: 80%;
+			margin-left: 10%;
+		}
